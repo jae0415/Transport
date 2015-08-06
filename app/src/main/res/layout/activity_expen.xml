@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.edwards2james.transportationanalysis_app.expen"
+    android:background="#ff000000">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="About Page"
+        android:id="@+id/button13"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="onAboutClick" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Application"
+        android:id="@+id/button14"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:clickable="true"
+        android:background="#ff11ff00"
+        android:onClick="onappClick" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="About Data"
+        android:id="@+id/button15"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button13"
+        android:layout_alignEnd="@+id/button13"
+        android:background="#ffffea00"
+        android:onClick="onabtdataClick" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:text="Expenses are when money is put towards the mode of transportation. This could be thought of as gas, fare for use of mode, maintenance, accessories, and so forth."
+        android:id="@+id/textView5"
+        android:textColor="#f3c10012"
+        android:textSize="25dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

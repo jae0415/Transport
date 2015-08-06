@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\edwards2james\AndroidStudioProjects\TEK2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="C:\Users\edwards2james\AndroidStudioProjects\TEK2\app\build\intermediates\pre-dexed\debug\classes-84f6cf6eb78225ffbc4d926d9fb9af27c2c34239.jar" />
+    </item>
+    <item
+        jar="C:\Users\edwards2james\AndroidStudioProjects\TEK2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="C:\Users\edwards2james\AndroidStudioProjects\TEK2\app\build\intermediates\pre-dexed\debug\classes-c4929fc7c8c0a3d943dce103c1c7ac712f70807d.jar" />
+    </item>
+    <item
+        jar="C:\Users\edwards2james\AndroidStudioProjects\TEK2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Users\edwards2james\AndroidStudioProjects\TEK2\app\build\intermediates\pre-dexed\debug\classes-2323b1bd192cbf436a72e08149cbdad526428103.jar" />
+    </item>
+    <item
+        jar="C:\Users\edwards2james\AndroidStudioProjects\TransportationAnalysis_App\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="C:\Users\edwards2james\AndroidStudioProjects\TransportationAnalysis_App\app\build\intermediates\pre-dexed\debug\classes-14b766cc2244a148c02c5736e68671ad547a62e8.jar" />
+    </item>
+    <item
+        jar="C:\Users\edwards2james\AndroidStudioProjects\TransportationAnalysis_App\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Users\edwards2james\AndroidStudioProjects\TransportationAnalysis_App\app\build\intermediates\pre-dexed\debug\classes-faa113583ef13b85692c3dbd316d34de763f7788.jar" />
+    </item>
+    <item
+        jar="C:\Users\edwards2james\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="C:\Users\edwards2james\AndroidStudioProjects\TransportationAnalysis_App\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-b592c68b406e7cd2f75af95bba100c0d69cab245.jar" />
+    </item>
+    <item
+        jar="C:\Users\edwards2james\.gradle\caches\modules-2\files-2.1\org.mongodb\mongo-java-driver\2.13.0\6b19c1276871001fa85684475db7e4c538046b52\mongo-java-driver-2.13.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6b19c1276871001fa85684475db7e4c538046b52">
+        <dex dex="C:\Users\edwards2james\AndroidStudioProjects\TransportationAnalysis_App\app\build\intermediates\pre-dexed\debug\mongo-java-driver-2.13.0-e104d809514461f44169c5ddb86837fe40978bcb.jar" />
+    </item>
+    <item
+        jar="C:\Users\edwards2james\AndroidStudioProjects\TransportationAnalysis_App\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="C:\Users\edwards2james\AndroidStudioProjects\TransportationAnalysis_App\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-74d29af4b12e1edc9dee1cd2f2d8c24e89901cb0.jar" />
+    </item>
+    <item
+        jar="C:\Users\edwards2james\AndroidStudioProjects\TransportationAnalysis_App\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="C:\Users\edwards2james\AndroidStudioProjects\TransportationAnalysis_App\app\build\intermediates\pre-dexed\debug\classes-03826cca412e93bc8ea9a8828ec54e905488da41.jar" />
+    </item>
+    <item
+        jar="C:\Users\edwards2james\AndroidStudioProjects\TEK2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="C:\Users\edwards2james\AndroidStudioProjects\TEK2\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-16c816bc65e7b2e2f74befdacdb2f41b872a378a.jar" />
+    </item>
+
+</items>

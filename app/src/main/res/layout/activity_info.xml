@@ -1,0 +1,208 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.edwards2james.transportationanalysis_app.info"
+    android:background="#ff000000">
+>
+
+    <TextView android:text="@string/main" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  android:textColor="#ffffffff"
+        android:textSize="20dp"
+        android:id="@+id/textView"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        android:id="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff000000"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:background="#ffffffff"
+        android:phoneNumber="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:id="@+id/button4"
+        android:onClick="onBackClick"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/road"
+        android:id="@+id/imageView"
+        android:layout_above="@+id/button4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffffff"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Cost Value Below"
+        android:id="@+id/textView4"
+        android:textColor="#fffffe00"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/textView1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select A Mode of Transportation Below To Save Data"
+        android:id="@+id/textView6"
+        android:textColor="#fffffe00"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:background="#ffffffff"
+        android:layout_below="@+id/textView9"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Enter Mile For Trip"
+        android:id="@+id/textView9"
+        android:textColor="#fffffe00"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AIRPLANE"
+        android:id="@+id/button5"
+        android:layout_alignTop="@+id/button7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button24"
+        android:layout_alignEnd="@+id/button24"
+        android:onClick="onAirClick" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boat/Ferry"
+        android:id="@+id/button7"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/button25"
+        android:layout_alignStart="@+id/button25"
+        android:onClick="onBoatClick" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIKE"
+        android:id="@+id/button20"
+        android:layout_above="@+id/button24"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_toLeftOf="@+id/button7"
+        android:layout_toStartOf="@+id/button7"
+        android:onClick="onBikeClick" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOTOCYCLE/SCOOTER"
+        android:id="@+id/button21"
+        android:layout_below="@+id/button24"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/button20"
+        android:layout_toLeftOf="@+id/button20"
+        android:onClick="onMotoClick" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WALK"
+        android:id="@+id/button22"
+        android:layout_alignBottom="@+id/button21"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/button4"
+        android:layout_toRightOf="@+id/button4"
+        android:layout_below="@+id/button25"
+        android:onClick="onWalkClick" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRAIN"
+        android:id="@+id/button23"
+        android:layout_alignBottom="@+id/button22"
+        android:layout_alignRight="@+id/button20"
+        android:layout_alignEnd="@+id/button20"
+        android:layout_alignLeft="@+id/button20"
+        android:layout_alignStart="@+id/button20"
+        android:layout_below="@+id/button25"
+        android:onClick="onTrainClick" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUS"
+        android:id="@+id/button24"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button21"
+        android:layout_alignEnd="@+id/button21"
+        android:onClick="onBusClick" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAR"
+        android:id="@+id/button25"
+        android:layout_alignTop="@+id/button24"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/button22"
+        android:layout_alignStart="@+id/button22"
+        android:onClick="onCarClick" />
+
+
+</RelativeLayout>

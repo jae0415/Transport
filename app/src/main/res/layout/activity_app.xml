@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.edwards2james.transportationanalysis_app.App"
+    android:background="#ff000000">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="About Page"
+        android:id="@+id/button12"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="onAboutClick" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Expenses"
+        android:id="@+id/button16"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ff20ff00"
+        android:onClick="onexpenClick" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="About Data"
+        android:id="@+id/button17"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button12"
+        android:layout_alignEnd="@+id/button12"
+        android:background="#ffffd300"
+        android:onClick="onabtdataClick" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="325dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="This application is designed to keep track of transportation expenses. It gives the users the ability to enter in costs for different modes while storing the data. The goal is to help budget and bring awareness of different modes and the amount people put towards transportation."
+        android:id="@+id/textView8"
+        android:textColor="#ffff0002"
+        android:textSize="23dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

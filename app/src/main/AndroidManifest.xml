@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.edwards2james.transportationanalysis_app" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".info"
+            android:label="@string/title_activity_info" >
+            <intent-filter>
+                <action android:name="android.intent.action.info" />
+
+                <category android:name="android.intent.category.d" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".data"
+            android:label="@string/title_activity_data" >
+            <intent-filter>
+                <action android:name="android.intent.action.data" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".about"
+            android:label="@string/title_activity_about" >
+            <intent-filter>
+                <action android:name="android.intent.about" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".App"
+            android:label="@string/title_activity_app" >
+        </activity>
+        <activity
+            android:name=".expen"
+            android:label="@string/title_activity_expen" >
+        </activity>
+        <activity
+            android:name=".abtdata"
+            android:label="@string/title_activity_abtdata" >
+        </activity>
+    </application>
+
+</manifest>
